@@ -1,0 +1,20 @@
+{
+  "name": "kira-on-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "npm run deploy && node index.js"
+  },
+  "keywords": [],
+  "author": "AKSisOnline",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^3.1.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "moment-timezone": "^0.5.45",
+    "node-cron": "^3.0.3"
+  }
+}

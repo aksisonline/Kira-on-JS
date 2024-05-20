@@ -1,0 +1,41 @@
+{
+    "token" : "MTIzNDk0MDU2NDI0ODcyMzUzOA.GIX9tY.RFaiA6Fh03HcflLMl2D-9WJvQpwnyK97OGeQgg",
+    "clientId": "1234940564248723538",
+	"guildId": "1162425879578804325",
+    "kickTimeInHours": 16,
+    "deathmessages": [
+        "All Humans Die The Same.",
+        "An Eye For An Eye, My Friend.",
+        "It Is Generally Bad Luck For A Person To Be Followed By A God Of Death.",
+        "Death Is Equal to All. It Is The Fate Of The Living.",
+        "This World Is Rotten, and those who aid it, deserve to die."
+    ],
+
+    "keywords": {
+        "hello": ["Salutations, mortal being.", "Greetings, ephemeral creature.", "Hey, insignificant existence."],
+        "bye": ["Adieu, fleeting soul.", "Parting is such sweet sorrow, transient being.", "Goodbye, mere mortal."],
+        "thanks": ["Your gratitude is noted, mortal.", "Acknowledged, insignificant one.", "You're welcome, for now."],
+        "help": ["Assistance is granted, mortal.", "How may I assist you, transient being?", "Your request for aid is acknowledged."],
+        "sorry": ["Apologies are irrelevant, mortal.", "Regret is a fleeting emotion, ephemeral creature.", "Acknowledged, but forgiveness is unnecessary."],
+        "yes": ["Affirmative, mortal.", "Indeed, ephemeral being.", "Yes, but your fate remains unchanged."],
+        "no": ["Negative, mortal.", "Your request is denied, transient being.", "No, for now."],
+        "please": ["Your plea is noted, mortal.", "Begging is futile, ephemeral creature.", "Please, try again."],
+        "death": ["Death is inevitable, mortal.", "Your fate is sealed, ephemeral being.", "Death is the only certainty in life."],
+        "life": ["Life is fleeting, mortal.", "Your existence is temporary, ephemeral being.", "Life is a brief moment in time."],
+        "time": ["Time is an illusion, mortal.", "Your perception of time is limited, ephemeral being.", "Time is a construct of your reality."],
+        "reaper": ["I am the harbinger of death, mortal.", "I am the end of all things, ephemeral being.", "I am the reaper of souls."],
+        "grim": ["I am the embodiment of death, mortal.", "I am the harbinger of doom, ephemeral being.", "I am the grim reaper."],
+        "hello?": ["Salutations, mortal being.", "Greetings, ephemeral creature.", "Hey, insignificant existence."],
+        "bye?": ["Adieu, fleeting soul.", "Parting is such sweet sorrow, transient being.", "Goodbye, mere mortal."],
+        "other":["Your inquiry is acknowledged, mortal.", "Questions are meaningless, transient being.", "What you seek is beyond your comprehension."],
+        "kill":["Your request is noted, mortal.", "Your fate is sealed, ephemeral being.", "Death is the only certainty in life.", "Your request is denied, transient being.", "No, for now.", "Death is inevitable, mortal.", "Your fate is sealed, ephemeral being.", "Death is the only certainty in life."]
+      },
+      
+      "welcome":[
+        "Welcome, mortal. Death comes in many forms. Watashi wa kira desu. I am Kira.",
+        "Greetings, ephemeral being. I am Kira, the harbinger of death.",
+        "Hello, insignificant existence. I am Kira, the grim reaper.",
+        "Welcome, transient being. Heed... for the one before you is the embodiment of death himself, Kira.",
+        "Greetings, mortal. I am Kira, the reaper of souls. Death is inevitable, but your fate is in my hands."
+      ]
+}

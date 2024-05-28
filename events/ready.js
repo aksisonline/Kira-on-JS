@@ -1,5 +1,4 @@
 const { Events } = require('discord.js');
-const dotenv = require('dotenv').config();
 const guildId = process.env.GUILD_ID;
 const channelId = process.env.CHANNEL_ID;
 

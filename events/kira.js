@@ -1,7 +1,9 @@
 const { Events } = require('discord.js');
 const cron = require('cron');
 const moment = require('moment-timezone');
-const { kickTimeInHours , guildId, deathmessages} = require('../config.json');
+const { kickTimeInHours, deathmessages } = require('../config.json');
+const dotenv = require('dotenv').config();
+const guildId = process.env.GUILD_ID;
 
 module.exports = {
     name: Events.ClientReady,

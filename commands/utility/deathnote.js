@@ -16,7 +16,7 @@ module.exports = {
 
         
         if (!interaction.options.getUser('user')) {
-            await interaction.reply({ content: `List of people left to die: ${peopleLeftToDie}` , ephemeral: true});
+            await interaction.reply({ content: `List of people left to die: ${peopleLeftToDie}`});
             return;
         }
         
@@ -41,9 +41,9 @@ module.exports = {
         console.log(guildMember.user.tag, time, userJoinTime);
         
         if (guildMember.roles.cache.some(role => role.name === 'Light')) {
-            await interaction.reply({ content: `${guildMember.user.tag} is under Kira's Protection.` , ephemeral: true});
+            await interaction.reply({ content: `${guildMember.user.tag} is under Kira's Protection.`});
         } else {
-            await interaction.reply({ content: `${guildMember.user.tag} is going to die in ${time}.` , ephemeral: true});
+            await interaction.reply({ content: `${guildMember.user.tag} is going to die in ${time}.`});
         }
     }
 };

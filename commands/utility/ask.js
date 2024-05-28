@@ -18,6 +18,6 @@ module.exports = {
 			console.log(`${member.user.username}: Joined ${hoursSinceJoin} hours and ${minutesSinceJoin} minutes ago`);
 		});
 
-		await interaction.reply({ content: `There are ${saikoMembers.size} pending deaths in the notebook.`, ephemeral: true });
+		await interaction.reply({ content: `There are ${saikoMembers.size} pending deaths in the notebook.`});
 	},
 };

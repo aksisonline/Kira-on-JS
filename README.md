@@ -8,22 +8,7 @@ Kira is a specific usecase bot designed initially for Inazuma Guild.
 
 1. Clone the repository.
 2. Run `npm install` to install the dependencies.
-3. Create a `config.json` file in the root directory with the following structure:
-
-```json
-{
-  "token": "your-discord-bot-token",
-  "keywords": {
-    "keyword1": ["response1", "response2"],
-    "keyword2": ["response1", "response2"]
-  }
-}
-```
-
-Use the `config_edit.json` file as a reference point to begin from.
-
-Replace `"your-discord-bot-token"` with your Discord bot token. Add any keywords you want the bot to respond to in the `keywords` object.
-
+3. Define Environment variables TOKEN, CLIENT_ID, GUILD_ID, and CHANNEL_ID or simply create a .env file with the following variables
 4. Run `npm start` to deploy the commands and start the bot.
 
 ## Commands

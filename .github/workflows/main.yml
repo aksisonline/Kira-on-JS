@@ -28,9 +28,9 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./Kira-on-JS
+          context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-bot:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kira:latest
 
       - name: Log out from DockerHub
         run: docker logout

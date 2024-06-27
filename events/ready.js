@@ -10,6 +10,6 @@ module.exports = {
 
 		const guild = client.guilds.cache.get(guildId);
 		const channel = guild.channels.cache.get(channelId);
-		channel.send("You are now under Kira's reign.");
+		// channel.send("You are now under Kira's reign.");
 	},
 };

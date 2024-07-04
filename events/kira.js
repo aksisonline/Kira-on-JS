@@ -42,10 +42,15 @@ module.exports = {
                         try {
                             const randomMessage = deathmessages[Math.floor(Math.random() * deathmessages.length)];
                             await guildMember.send(randomMessage);
+                        } catch (error) {
+                            console.error(`Failed to send memssage to member ${guildMember.id}: ${error}  ${deathmessages}`);
+                        }
+                        
+                        try {
                             await guildMember.kick("Kira's judgement has been passed.");
                             console.log(`Kicked member ${guildMember.id}`);
                         } catch (error) {
-                            console.error(`Failed to kick member ${guildMember.id}: ${error}  ${deathmessages}`);
+                            console.error(`Failed to kick member ${guildMember.id}: ${error}`);
                         }
                     }
                 });
